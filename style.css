@@ -1,0 +1,48 @@
+html, body {
+    background: #000;
+    height: 100%;
+    width: 100%;
+  }
+
+  #aaa {
+    font-size: 50px;
+    color: rgb(94, 255, 36);
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+  }
+
+  #ppp {
+    height: 20px;
+    color: red;
+  }
+  
+  #hackerman{
+    width: 100%;
+  }
+  font{
+    color: #0F0;
+  }
+  #hackerman span{
+    color: #0F0;
+    width: 10px;
+    text-align: center;
+    display: block;
+    float:left;
+    font-weight: 600;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
